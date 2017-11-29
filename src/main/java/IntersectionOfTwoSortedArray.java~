@@ -76,8 +76,6 @@ public class IntersectionOfTwoSortedArray {
 		while (a < array1.length && b < array2.length) {
 			if (array1[a] == array2[b]) {
 				r.add(array1[a]);
-				a++;
-				b++;
 			} else if (array1[a] < array2[b]) {
 				a++;
 			} else {
